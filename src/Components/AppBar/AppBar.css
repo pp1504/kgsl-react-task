@@ -1,0 +1,32 @@
+.navbar {
+    overflow: hidden;
+    background-color: #0b0e46;
+    top: 0;
+    padding: 0.5rem 3.5rem;
+    width: 100%;
+    
+  }
+  
+  .navbar .nav-link {
+    float: left;
+    display: block;
+    color: #ffff00e5;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+   
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffff00aa;
+  }
+
+  .cart-badge{
+    background-color: yellow;
+    color: #0b0e46;
+    border-radius:100px;
+    padding:5px 10px;
+    margin: 0px 10px;
+
+  }

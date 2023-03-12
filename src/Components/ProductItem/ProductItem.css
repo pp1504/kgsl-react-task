@@ -1,0 +1,148 @@
+.products-container{
+   padding: 0;
+   width: 100%;
+  
+}
+
+.card-wrap{
+    width:100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 7px #dfdfdf;
+   
+    
+}
+
+
+.card-wrap .card-item{
+    width:25%;
+    padding:15px 20px;
+   
+}
+
+.card-wrap .card-inner{
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    min-width: 220px;
+    min-height: 450px;
+    width:100%;
+    justify-content: center;
+   
+}
+
+.card-wrap .card-inner .card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-wrap .card-inner img{
+    width:10rem;
+    height:10rem;
+    margin-bottom: 30px;
+
+}
+
+.product-details{
+    padding: 10px;
+}
+
+.product-category{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #b7b7b7;
+    margin-bottom: 18px;
+}
+
+.product-details .product-title a{
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    height: 100px;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details .product-title a:hover {
+    color: rgb(87, 150, 233);
+}
+
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 22px;
+    color: rgb(7, 42, 101);
+    font-weight: 600;
+}
+
+
+.product-rating{
+    display: flex;
+    align-items: center;
+    
+
+}
+.product-links {
+    text-align: right;
+    cursor: pointer;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #000000;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: rgba(255, 255, 0, 0.472);
+    padding: 7px 15px;
+    border-radius: 1rem;
+}
+
+.product-links a:hover {
+    background-color: yellow;
+}
+
+@media screen and (max-width:1024px) {
+    .card-wrap .card-item{
+        width:33%
+    }
+    .product-details .product-title a{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:728px) {
+    .card-wrap .card-item{
+        width:50%
+    }
+    .product-details .product-title a{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card-wrap .card-item{
+        width:100%
+    }
+}
